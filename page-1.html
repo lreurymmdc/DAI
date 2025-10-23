@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Advert Inspector | Ad Checker</title>
+    <meta description="Think that ad looks suspicious? Enter the ad’s link to verify its legitimacy instantly.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <figure>
+                <img src="DAI_Logo.png" alt="The digital advert inspector logo.">
+            </figure>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="card-cont">
+                <div class="title-cont">
+                    <h1>This Ad Looks Suspicious</h1>
+                </div>
+                <div class="card-body-cont">
+                    <div class="ad-preview-cont">
+                        <figure class="ad-preview">
+                            <img class="img-fluid" src="Ad Preview.png" alt="A smiling woman model holding a soap bar.">
+                        </figure>
+                        <figure class="social-links">
+                            <img  src="Facebook.png" alt="Facebook icon">
+                            <img src="Video Playlist.png" alt="Video playlist icon">
+                            <img src="Organization.png" alt="Building icon">
+
+                        </figure>
+                    </div>
+                    <div class="verdict-cont">
+                        <div class="heading-icon">
+                            <img src="Icon Red.png" alt="Tooltip red icon" width="20px">
+                            <h2>Our Verdict</h2>
+                        </div>
+                        <p>Our review shows that this ad may not be genuine. It contains unverified claims and lacks
+                            reliable proof supporting the product’s results. Proceed with caution and review the
+                            detailed findings below.</p>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        ❌ Advertised product effect is unrealistic
+                                    </button>
+                                </h3>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The ad promises visible whitening in just one day. Based
+                                        on dermatological research, such rapid results are unlikely without
+                                        medical-grade treatment. This claim is misleading and may give false
+                                        expectations.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        ❌ Unverified business name and FDA registrations
+                                    </button>
+                                </h3>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The brand name listed in the ad does not appear in the
+                                        FDA’s official registry. No verified business records or certifications were
+                                        found during our inspection.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        ❌ Bad user reviews
+                                    </button>
+                                </h3>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Multiple online discussions report dissatisfaction with
+                                        similar whitening products from unlisted brands. Users mention irritation and no
+                                        visible results after use.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conclusion">
+                            <p class="lead">We advise you not to engage, share, or purchase from this seller until its legitimacy is
+                                confirmed. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button id="reverse-btn" type="button" class="btn btn-primary">
+                    Got another ad? Let’s check it!
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
