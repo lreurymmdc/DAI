@@ -141,9 +141,9 @@
                 margin:0 auto!important;
             }
             .breadcrumb {
-                font-size:14px;
+                font-size:14px!important;
                 display: flex;
-                gap: 7px;
+                gap: 7px!important;
                 color:#000;
                 margin-bottom: 24px;
                 padding-left: 5px;
