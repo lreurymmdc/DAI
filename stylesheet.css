@@ -72,7 +72,7 @@
                 padding-bottom: 15px;
             }
             .disclaimer {
-                font-size: 14px;
+                font-size: 12px;
                 color:#707070;
             }
             nav img {
@@ -152,7 +152,7 @@
                 color:#000!important;
             }
 
-            @media screen and (max-width:460px) {
+            @media screen and (max-width:700px) {
                 .column-cont {
                     flex-direction: column;
                     flex-wrap: wrap;
@@ -178,5 +178,16 @@
                 }
                 .verdict-cont {
                     margin-bottom: 36px;
+                }
+            }
+            @media screen and (max-width:460px) {
+               
+                h1 {
+                    flex-basis: 100%;
+                    text-align: center;
+                    font-size: 24px;
+                }
+                h2 {
+                    font-size:18px;
                 }
             }
